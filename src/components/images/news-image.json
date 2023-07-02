@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_images_news_images",
+  "info": {
+    "displayName": "NewsImage",
+    "icon": "picture",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "shortName": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "source": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

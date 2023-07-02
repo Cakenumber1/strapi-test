@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news",
+  "info": {
+    "singularName": "new",
+    "pluralName": "news",
+    "displayName": "new"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "richtext"
+    },
+    "order": {
+      "type": "integer",
+      "required": true
+    },
+    "image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "images.news-image"
+    }
+  }
+}
